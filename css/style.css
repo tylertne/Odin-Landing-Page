@@ -74,5 +74,10 @@ body{
     margin: 0 2rem 1.5rem 0;
 }
 .maintxt button{
-    
+    padding: 7px 28px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
 }
