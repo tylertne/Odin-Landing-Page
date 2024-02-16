@@ -50,6 +50,7 @@ body{
 /* Main Styles */
 .main{
     background-color: #1F2937;
+    flex: 1;
 }
 .main .container{
     display: flex;
@@ -80,4 +81,44 @@ body{
     border-radius: 8px;
     border: none;
     font-size: 1.2rem;
+}
+
+/* Section 1 Styles */
+.info{
+    flex: 1;
+}
+.info .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin-top: 2rem;
+}
+
+.pics{
+    display: flex;
+    gap: 2rem;
+}
+
+.pic{
+    flex: 1;
+}
+
+.pic img{
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.info .container h2{
+    font-size: 3rem;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 0 0 3rem 0;
+}
+
+.info .container p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem 0 0 0;
 }
