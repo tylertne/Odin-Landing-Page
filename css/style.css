@@ -93,6 +93,7 @@ body{
     align-items: center;
     max-width: 800px;
     margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 .pics{
@@ -121,4 +122,29 @@ body{
     text-align: center;
     font-size: 1.2rem;
     margin: 1rem 0 0 0;
+}
+
+/* Quote Section Styles */
+.quote{
+    flex: 1;
+    background-color: #e5e7eb;
+}
+.quote .container{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    justify-content: center;
+    margin: 3rem auto;
+}
+.quote .container q{
+    font-size: 3rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    margin-top: 20px;
+}
+.quote .container span{
+    font-size: 2.3rem;
+    font-weight: 700;
+    align-self: flex-end;
 }
