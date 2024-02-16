@@ -186,3 +186,14 @@ body{
     border-radius: 5px;
     flex-shrink: 0;
 }
+
+.footer{
+    background-color: #1F2937;
+}
+.footer .container{
+    text-align: center;
+    padding: 3vh
+}
+.footer span{
+    color: white;
+}
